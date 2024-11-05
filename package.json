@@ -7,9 +7,9 @@
     "deploy-template": "node deployTemplate.js",
     "test-email": "node sendTestEmail.js",
     "inline": "node inlineStyles.js",
-    "serve": "http-server build -o",
     "clean": "rimraf build",
-    "build": "npm run clean && mjml -r src/templates -o build",
+    "build": "mjml src/templates/*.mjml -o build",
+    "server": "http-server build -o",
     "watch": "mjml -w -r src/templates -o build",
     "start": "npm run watch",
     "test": "mjml --validate src/templates/*.mjml"

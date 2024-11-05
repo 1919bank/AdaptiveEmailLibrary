@@ -1,0 +1,8 @@
+<mj-section>
+    <mj-column>
+        <mj-image width="100px" src="https://yourdomain.com/path-to-logo.png" alt="Logo" />
+        <mj-text font-size="18px" color="#000000" font-family="Helvetica, Arial, sans-serif" align="center">
+            <strong>Welcome to Adaptive Email Library</strong>
+        </mj-text>
+    </mj-column>
+</mj-section>
