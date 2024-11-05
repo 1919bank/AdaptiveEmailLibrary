@@ -1,0 +1,7 @@
+<mjml>
+  <mj-body>
+    <mj-include path="../../components/headers/main-header.mjml" />
+    <!-- Email content -->
+    <mj-include path="../../components/footers/main-footer.mjml" />
+  </mj-body>
+</mjml>
