@@ -8,7 +8,7 @@
     "test-email": "node sendTestEmail.js",
     "inline": "node inlineStyles.js",
     "clean": "rimraf build",
-    "build": "mjml src/templates/*.mjml -o build",
+    "build": "mjml src/templates/*.mjml -o build && npm run inline",
     "server": "http-server build -o",
     "watch": "mjml -w -r src/templates -o build",
     "start": "npm run watch",
