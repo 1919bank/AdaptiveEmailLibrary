@@ -4,11 +4,14 @@
   "description": "A collection of responsive email templates built with MJML.",
   "main": "index.js",
   "scripts": {
+    "dev": "npm run build && npm run preview",
     "deploy-template": "node deployTemplate.js",
     "test-email": "node sendTestEmail.js",
     "inline": "node inlineStyles.js",
     "clean": "rimraf build",
-    "build": "mjml src/templates/*.mjml -o build && npm run inline",
+    "preview": "node browsersync.js",
+    "generate-index": "node generateIndex.js",
+    "build": "mjml src/templates/*.mjml -o build && npm run inline && npm run generate-index",
     "server": "http-server build -o",
     "watch": "mjml -w -r src/templates -o build",
     "start": "npm run watch",
@@ -24,6 +27,7 @@
   "author": "Cesar A. Reyes",
   "license": "MIT",
   "devDependencies": {
+    "browser-sync": "^3.0.3",
     "email-templates": "^12.0.1",
     "http-server": "^14.1.1",
     "juice": "^11.0.0",
