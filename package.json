@@ -1,0 +1,38 @@
+{
+  "name": "adaptive-email-library",
+  "version": "1.0.0",
+  "description": "A collection of responsive email templates built with MJML.",
+  "main": "index.js",
+  "scripts": {
+    "deploy-template": "node deployTemplate.js",
+    "test-email": "node sendTestEmail.js",
+    "inline": "node inlineStyles.js",
+    "serve": "http-server build -o",
+    "clean": "rimraf build",
+    "build": "npm run clean && mjml -r src/templates -o build",
+    "watch": "mjml -w -r src/templates -o build",
+    "start": "npm run watch",
+    "test": "mjml --validate src/templates/*.mjml"
+  },
+  "keywords": [
+    "email",
+    "templates",
+    "responsive",
+    "mjml",
+    "marketing"
+  ],
+  "author": "Cesar A. Reyes",
+  "license": "MIT",
+  "devDependencies": {
+    "email-templates": "^12.0.1",
+    "http-server": "^14.1.1",
+    "juice": "^11.0.0",
+    "mailchimp-marketing": "^0.0.1-security",
+    "mjml": "^4.10.0",
+    "nodemailer": "^6.9.16",
+    "rimraf": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
