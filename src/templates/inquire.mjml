@@ -1,0 +1,209 @@
+<mjml>
+    <mj-body background-color="#f8f8f8">
+
+        <!-- Company Header -->
+        <mj-section background-color="#ffffff" padding="20px 0">
+            <mj-column>
+                <mj-text align="center"
+                         font-size="24px"
+                         font-family="Arial, sans-serif"
+                         color="#333333"
+                         font-weight="bold"
+                         line-height="1.5">
+                    Your Partner in Quality Heat Press Services
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Main Image Header with Call-to-Action -->
+        <mj-section background-url="https://example.com/heat-press-header.jpg"
+                    background-size="cover"
+                    background-repeat="no-repeat"
+                    padding="60px 0">
+            <mj-column width="100%">
+                <mj-text align="center"
+                         color="#ffffff"
+                         font-size="36px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         padding="0 25px"
+                         line-height="1.4">
+                    Professional Heat Press Solutions for Your Brand
+                </mj-text>
+
+                <mj-text align="center"
+                         color="#ffffff"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         padding="10px 25px"
+                         line-height="1.5">
+                    Get high-quality, custom heat press designs tailored to your vision with our expert team.
+                </mj-text>
+
+                <mj-button background-color="#ff5a5f"
+                           color="#ffffff"
+                           font-family="Arial, sans-serif"
+                           font-size="16px"
+                           font-weight="bold"
+                           padding="15px 30px"
+                           border-radius="5px"
+                           href="#"
+                           line-height="1.5">
+                    Request a Free Quote
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Intro Section -->
+        <mj-section background-color="#ffffff" padding="40px 20px">
+            <mj-column width="100%">
+                <mj-text align="center"
+                         color="#333333"
+                         font-size="20px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         line-height="1.5">
+                    Heat Press Services Tailored for Excellence
+                </mj-text>
+
+                <mj-text align="center"
+                         color="#555555"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         padding="10px 20px"
+                         line-height="1.6">
+                    Our advanced heat press services ensure each piece meets the highest standards of quality and durability, perfect for promotional items, branded apparel, or personalized designs.
+                </mj-text>
+
+                <mj-button background-color="#333333"
+                           color="#ffffff"
+                           font-family="Arial, sans-serif"
+                           font-size="16px"
+                           font-weight="bold"
+                           padding="15px 30px"
+                           border-radius="5px"
+                           href="#"
+                           line-height="1.5">
+                    Contact Us for More Info
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Featured Services Section -->
+        <mj-section background-color="#f9f9f9" padding="20px 0">
+            <mj-column width="50%">
+                <mj-image src="https://example.com/heat-press-service.jpg" alt="Heat Press Service" width="250px" />
+            </mj-column>
+
+            <mj-column width="50%">
+                <mj-text font-size="18px"
+                         font-family="Arial, sans-serif"
+                         color="#333333"
+                         font-weight="bold"
+                         line-height="1.5"
+                         padding="0 20px">
+                    What We Offer
+                </mj-text>
+
+                <mj-text font-size="16px"
+                         font-family="Arial, sans-serif"
+                         color="#555555"
+                         line-height="1.6"
+                         padding="10px 20px">
+                    Our services include custom heat transfers, apparel branding, and bulk production with fast turnaround times. Our quality-focused approach ensures vibrant, long-lasting designs.
+                </mj-text>
+
+                <mj-button background-color="#ff5a5f"
+                           color="#ffffff"
+                           font-family="Arial, sans-serif"
+                           font-size="16px"
+                           font-weight="bold"
+                           padding="15px 30px"
+                           border-radius="5px"
+                           href="#"
+                           line-height="1.5">
+                    Get Started Today
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Testimonials Section -->
+        <mj-section background-color="#ffffff" padding="30px 0">
+            <mj-column width="100%">
+                <mj-text align="center"
+                         color="#333333"
+                         font-size="20px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         line-height="1.5">
+                    What Our Clients Say
+                </mj-text>
+            </mj-column>
+
+            <mj-column width="100%">
+                <mj-text align="center"
+                         color="#555555"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         padding="0 30px"
+                         line-height="1.6">
+                    "Exceptional quality and attention to detail. Their heat press work was exactly what we envisioned for our brand."
+                </mj-text>
+                <mj-text align="center"
+                         color="#555555"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         padding="10px 30px"
+                         line-height="1.6">
+                    — Satisfied Customer
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- CTA for Consultation -->
+        <mj-section background-color="#e7e7e7" padding="40px 20px">
+            <mj-column>
+                <mj-text align="center"
+                         color="#333333"
+                         font-size="18px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         line-height="1.5">
+                    Ready to Make Your Ideas a Reality?
+                </mj-text>
+                <mj-text align="center"
+                         color="#555555"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         padding="10px 25px"
+                         line-height="1.5">
+                    Contact us today to learn more about our heat press services and how we can help bring your designs to life!
+                </mj-text>
+
+                <mj-button background-color="#333333"
+                           color="#ffffff"
+                           font-family="Arial, sans-serif"
+                           font-size="16px"
+                           font-weight="bold"
+                           padding="15px 30px"
+                           border-radius="5px"
+                           href="mailto:sales@example.com"
+                           line-height="1.5">
+                    Schedule a Consultation
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Social Media Links -->
+        <mj-section background-color="#f0f0f0" padding="20px">
+            <mj-column>
+                <mj-social font-size="16px" icon-size="30px" mode="horizontal">
+                    <mj-social-element name="facebook" href="https://facebook.com/yourpage">Facebook</mj-social-element>
+                    <mj-social-element name="instagram" href="https://instagram.com/yourpage">Instagram</mj-social-element>
+                    <mj-social-element name="twitter" href="https://twitter.com/yourpage">Twitter</mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+
+    </mj-body>
+</mjml>

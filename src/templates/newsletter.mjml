@@ -1,0 +1,192 @@
+<mjml>
+    <mj-body background-color="#f8f8f8">
+
+        <!-- Header Section -->
+        <mj-section background-color="#ffffff" padding="20px 0">
+            <mj-column>
+                <mj-text align="center"
+                         font-size="24px"
+                         font-family="Arial, sans-serif"
+                         color="#333333"
+                         font-weight="bold">
+                    My Company - Your Monthly Update
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Hero Image and Welcome Text -->
+        <mj-section background-url="https://example.com/newsletter-hero.jpg"
+                    background-size="cover"
+                    background-repeat="no-repeat"
+                    padding="60px 0">
+            <mj-column width="100%">
+                <mj-text align="center"
+                         color="#ffffff"
+                         font-size="36px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         padding="0 25px"
+                         line-height="1.4">
+                    Welcome to Our Monthly Newsletter
+                </mj-text>
+
+                <mj-text align="center"
+                         color="#ffffff"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         padding="10px 25px"
+                         line-height="1.5">
+                    Discover the latest updates, news, and exclusive offers!
+                </mj-text>
+
+                <mj-button background-color="#ff5a5f"
+                           color="#ffffff"
+                           font-family="Arial, sans-serif"
+                           font-size="16px"
+                           font-weight="bold"
+                           padding="15px 30px"
+                           border-radius="5px"
+                           href="#"
+                           line-height="1.5">
+                    Read the Full Story
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Main Content Section -->
+        <mj-section background-color="#ffffff" padding="40px 20px">
+            <mj-column width="100%">
+                <mj-text align="center"
+                         color="#333333"
+                         font-size="20px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         line-height="1.5">
+                    This Month's Highlights
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Highlighted Article Section -->
+        <mj-section background-color="#f9f9f9" padding="20px">
+            <mj-column width="100%">
+                <mj-image src="https://example.com/highlighted-article.jpg" alt="Highlighted Article" width="500px" />
+                <mj-text color="#333333"
+                         font-size="18px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         padding="15px 0"
+                         align="center">
+                    Featured Story: Customization Trends for 2024
+                </mj-text>
+
+                <mj-text color="#555555"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         padding="10px 25px"
+                         line-height="1.6">
+                    Personalization is at the forefront of design this year. See how customization is evolving in the market and how you can take advantage of this trend to stand out.
+                </mj-text>
+
+                <mj-button background-color="#ff5a5f"
+                           color="#ffffff"
+                           font-family="Arial, sans-serif"
+                           font-size="16px"
+                           font-weight="bold"
+                           padding="15px 30px"
+                           border-radius="5px"
+                           href="#"
+                           line-height="1.5">
+                    Read More
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Product Showcase Section -->
+        <mj-section background-color="#ffffff" padding="40px 20px">
+            <mj-column width="50%">
+                <mj-image src="https://example.com/product1.jpg" alt="Product 1" width="200px" />
+                <mj-text color="#333333"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         padding="10px 0">
+                    Custom T-Shirts
+                </mj-text>
+                <mj-text color="#555555"
+                         font-size="14px"
+                         font-family="Arial, sans-serif"
+                         line-height="1.6">
+                    Create unique t-shirts with your designs. Available in various sizes and colors.
+                </mj-text>
+            </mj-column>
+
+            <mj-column width="50%">
+                <mj-image src="https://example.com/product2.jpg" alt="Product 2" width="200px" />
+                <mj-text color="#333333"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         padding="10px 0">
+                    Personalized Mugs
+                </mj-text>
+                <mj-text color="#555555"
+                         font-size="14px"
+                         font-family="Arial, sans-serif"
+                         line-height="1.6">
+                    Make your mornings special with a mug personalized just for you.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Call-to-Action -->
+        <mj-section background-color="#f9f9f9" padding="40px 20px">
+            <mj-column width="100%">
+                <mj-text align="center"
+                         color="#333333"
+                         font-size="20px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold">
+                    Ready to Bring Your Ideas to Life?
+                </mj-text>
+
+                <mj-text align="center"
+                         color="#555555"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         padding="10px 25px"
+                         line-height="1.5">
+                    Browse our customizable product collection and get started today!
+                </mj-text>
+
+                <mj-button background-color="#333333"
+                           color="#ffffff"
+                           font-family="Arial, sans-serif"
+                           font-size="16px"
+                           font-weight="bold"
+                           padding="15px 30px"
+                           border-radius="5px"
+                           href="#"
+                           line-height="1.5">
+                    Shop Custom Products
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Footer with Social Media Links -->
+        <mj-section background-color="#e7e7e7" padding="20px">
+            <mj-column>
+                <mj-text align="center" color="#555555" font-size="14px" font-family="Arial, sans-serif">
+                    Follow us for more updates:
+                </mj-text>
+
+                <mj-social font-size="16px" icon-size="30px" mode="horizontal">
+                    <mj-social-element name="facebook" href="https://facebook.com/yourpage">Facebook</mj-social-element>
+                    <mj-social-element name="instagram" href="https://instagram.com/yourpage">Instagram</mj-social-element>
+                    <mj-social-element name="twitter" href="https://twitter.com/yourpage">Twitter</mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+
+    </mj-body>
+</mjml>

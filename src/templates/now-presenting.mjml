@@ -1,0 +1,232 @@
+<mjml>
+    <mj-body background-color="#f8f8f8">
+
+        <!-- Header Section -->
+        <mj-section background-color="#ffffff" padding="20px 0">
+            <mj-column>
+                <mj-image src="https://example.com/company-logo.png" alt="Company Logo" width="150px" />
+            </mj-column>
+        </mj-section>
+
+        <!-- Hero Image and Main Title -->
+        <mj-section background-url="https://example.com/hero-image.jpg"
+                    background-size="cover"
+                    background-repeat="no-repeat"
+                    padding="60px 0">
+            <mj-column width="100%">
+                <mj-text align="center"
+                         color="#ffffff"
+                         font-size="36px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         padding="0 25px"
+                         line-height="1.4">
+                    Discover the Future of Design
+                </mj-text>
+
+                <mj-text align="center"
+                         color="#ffffff"
+                         font-size="18px"
+                         font-family="Arial, sans-serif"
+                         padding="10px 25px"
+                         line-height="1.5">
+                    Introducing our latest tools crafted to elevate your creativity.
+                </mj-text>
+
+                <mj-button background-color="#ff5a5f"
+                           color="#ffffff"
+                           font-family="Arial, sans-serif"
+                           font-size="16px"
+                           font-weight="bold"
+                           padding="15px 30px"
+                           border-radius="5px"
+                           href="#"
+                           line-height="1.5">
+                    Explore Now
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Product Feature Sections -->
+        <mj-section background-color="#ffffff" padding="40px 20px">
+            <mj-column width="100%">
+                <mj-text align="center"
+                         color="#333333"
+                         font-size="24px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         line-height="1.5">
+                    What's New
+                </mj-text>
+                <mj-text align="center"
+                         color="#555555"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         padding="10px 20px"
+                         line-height="1.6">
+                    Powerful features designed to make every project easier and more inspiring.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Feature 1 -->
+        <mj-section background-color="#f9f9f9" padding="20px">
+            <mj-column width="50%">
+                <mj-image src="https://example.com/feature1.jpg" alt="Feature 1" width="250px" />
+            </mj-column>
+
+            <mj-column width="50%">
+                <mj-text color="#333333"
+                         font-size="18px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         padding="0 20px"
+                         line-height="1.5">
+                    Advanced Image Editing
+                </mj-text>
+
+                <mj-text color="#555555"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         padding="10px 20px"
+                         line-height="1.6">
+                    Transform your photos with precise tools and filters that bring every detail to life. From color correction to advanced retouching, get perfect results every time.
+                </mj-text>
+
+                <mj-button background-color="#333333"
+                           color="#ffffff"
+                           font-family="Arial, sans-serif"
+                           font-size="16px"
+                           font-weight="bold"
+                           padding="10px 25px"
+                           border-radius="5px"
+                           href="#"
+                           line-height="1.5">
+                    Learn More
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Feature 2 -->
+        <mj-section background-color="#ffffff" padding="20px">
+            <mj-column width="50%">
+                <mj-image src="https://example.com/feature2.jpg" alt="Feature 2" width="250px" />
+            </mj-column>
+
+            <mj-column width="50%">
+                <mj-text color="#333333"
+                         font-size="18px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         padding="0 20px"
+                         line-height="1.5">
+                    Collaboration Simplified
+                </mj-text>
+
+                <mj-text color="#555555"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         padding="10px 20px"
+                         line-height="1.6">
+                    Work seamlessly with your team from anywhere. Share feedback, make edits, and bring your projects together in one collaborative space.
+                </mj-text>
+
+                <mj-button background-color="#333333"
+                           color="#ffffff"
+                           font-family="Arial, sans-serif"
+                           font-size="16px"
+                           font-weight="bold"
+                           padding="10px 25px"
+                           border-radius="5px"
+                           href="#"
+                           line-height="1.5">
+                    Start Collaborating
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Feature 3 -->
+        <mj-section background-color="#f9f9f9" padding="20px">
+            <mj-column width="50%">
+                <mj-image src="https://example.com/feature3.jpg" alt="Feature 3" width="250px" />
+            </mj-column>
+
+            <mj-column width="50%">
+                <mj-text color="#333333"
+                         font-size="18px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         padding="0 20px"
+                         line-height="1.5">
+                    AI-Powered Design Tools
+                </mj-text>
+
+                <mj-text color="#555555"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         padding="10px 20px"
+                         line-height="1.6">
+                    Experience the future of design with AI-powered tools that assist with content creation, layout suggestions, and much more, making the design process faster and easier.
+                </mj-text>
+
+                <mj-button background-color="#333333"
+                           color="#ffffff"
+                           font-family="Arial, sans-serif"
+                           font-size="16px"
+                           font-weight="bold"
+                           padding="10px 25px"
+                           border-radius="5px"
+                           href="#"
+                           line-height="1.5">
+                    Discover AI Tools
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Final Call-to-Action Section -->
+        <mj-section background-color="#ffffff" padding="40px 20px">
+            <mj-column width="100%">
+                <mj-text align="center"
+                         color="#333333"
+                         font-size="20px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold">
+                    Ready to Take Your Creativity to New Heights?
+                </mj-text>
+
+                <mj-text align="center"
+                         color="#555555"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         padding="10px 25px"
+                         line-height="1.5">
+                    Start using our tools today and see what you can create.
+                </mj-text>
+
+                <mj-button background-color="#ff5a5f"
+                           color="#ffffff"
+                           font-family="Arial, sans-serif"
+                           font-size="16px"
+                           font-weight="bold"
+                           padding="15px 30px"
+                           border-radius="5px"
+                           href="#"
+                           line-height="1.5">
+                    Get Started
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Footer with Social Media Links -->
+        <mj-section background-color="#e7e7e7" padding="20px">
+            <mj-column>
+                <mj-social font-size="16px" icon-size="30px" mode="horizontal">
+                    <mj-social-element name="facebook" href="https://facebook.com/yourpage">Facebook</mj-social-element>
+                    <mj-social-element name="instagram" href="https://instagram.com/yourpage">Instagram</mj-social-element>
+                    <mj-social-element name="twitter" href="https://twitter.com/yourpage">Twitter</mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+
+    </mj-body>
+</mjml>

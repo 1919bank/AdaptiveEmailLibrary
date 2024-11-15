@@ -1,0 +1,158 @@
+<mjml>
+    <mj-body background-color="#f8f8f8">
+
+        <!-- Company Header -->
+        <mj-section background-color="#ffffff" padding="20px 0">
+            <mj-column>
+                <mj-text align="center"
+                         font-size="24px"
+                         font-family="Arial, sans-serif"
+                         color="#333333"
+                         font-weight="bold"
+                         line-height="1.5">
+                    My Company - Customized Just For You
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Main Image Header with Call-to-Action -->
+        <mj-section background-url="https://example.com/custom-header.jpg"
+                    background-size="cover"
+                    background-repeat="no-repeat"
+                    padding="60px 0">
+            <mj-column width="100%">
+                <mj-text align="center"
+                         color="#ffffff"
+                         font-size="36px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         padding="0 25px"
+                         line-height="1.4">
+                    Your Imagination, Our Creation
+                </mj-text>
+
+                <mj-text align="center"
+                         color="#ffffff"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         padding="10px 25px"
+                         line-height="1.5">
+                    Stand out with our fully customizable products tailored for every occasion.
+                </mj-text>
+
+                <mj-button background-color="#ff5a5f"
+                           color="#ffffff"
+                           font-family="Arial, sans-serif"
+                           font-size="16px"
+                           font-weight="bold"
+                           padding="15px 30px"
+                           border-radius="5px"
+                           href="#"
+                           line-height="1.5">
+                    Explore Custom Options
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Intro Section -->
+        <mj-section background-color="#ffffff" padding="40px 20px">
+            <mj-column width="100%">
+                <mj-text align="center"
+                         color="#333333"
+                         font-size="20px"
+                         font-family="Arial, sans-serif"
+                         font-weight="bold"
+                         line-height="1.5">
+                    Designed to Reflect You
+                </mj-text>
+
+                <mj-text align="center"
+                         color="#555555"
+                         font-size="16px"
+                         font-family="Arial, sans-serif"
+                         padding="10px 20px"
+                         line-height="1.6">
+                    From t-shirts to accessories, bring your ideas to life with our premium customization services. High-quality materials, fast turnaround, and tailored designs for a unique, personal touch.
+                </mj-text>
+
+                <mj-button background-color="#333333"
+                           color="#ffffff"
+                           font-family="Arial, sans-serif"
+                           font-size="16px"
+                           font-weight="bold"
+                           padding="15px 30px"
+                           border-radius="5px"
+                           href="#"
+                           line-height="1.5">
+                    Start Designing
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Featured Product Section -->
+        <mj-section background-color="#f9f9f9" padding="20px 0">
+            <mj-column width="50%">
+                <mj-image src="https://example.com/your-custom-product.jpg" alt="Customized Product" width="250px" />
+            </mj-column>
+
+            <mj-column width="50%">
+                <mj-text font-size="18px"
+                         font-family="Arial, sans-serif"
+                         color="#333333"
+                         font-weight="bold"
+                         line-height="1.5"
+                         padding="0 20px">
+                    Why Choose Custom?
+                </mj-text>
+
+                <mj-text font-size="16px"
+                         font-family="Arial, sans-serif"
+                         color="#555555"
+                         line-height="1.6"
+                         padding="10px 20px">
+                    Personalized items make perfect gifts and lasting memories. Each product is crafted to your specifications, ensuring it’s truly one-of-a-kind.
+                </mj-text>
+
+                <mj-button background-color="#ff5a5f"
+                           color="#ffffff"
+                           font-family="Arial, sans-serif"
+                           font-size="16px"
+                           font-weight="bold"
+                           padding="15px 30px"
+                           border-radius="5px"
+                           href="#"
+                           line-height="1.5">
+                    See Our Gallery
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Icons for Additional Services -->
+        <mj-section background-color="#ffffff" padding="20px 0">
+            <mj-column>
+                <mj-image src="https://example.com/icon1.png" alt="Icon 1" width="50px" />
+                <mj-text align="center" color="#555555" font-size="14px">Heat Transfer</mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-image src="https://example.com/icon2.png" alt="Icon 2" width="50px" />
+                <mj-text align="center" color="#555555" font-size="14px">Screen Printing</mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-image src="https://example.com/icon3.png" alt="Icon 3" width="50px" />
+                <mj-text align="center" color="#555555" font-size="14px">Embroidery</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Social Media Links -->
+        <mj-section background-color="#f0f0f0" padding="20px">
+            <mj-column>
+                <mj-social font-size="16px" icon-size="30px" mode="horizontal">
+                    <mj-social-element name="facebook" href="https://facebook.com/yourpage">Facebook</mj-social-element>
+                    <mj-social-element name="instagram" href="https://instagram.com/yourpage">Instagram</mj-social-element>
+                    <mj-social-element name="twitter" href="https://twitter.com/yourpage">Twitter</mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+
+    </mj-body>
+</mjml>

@@ -1,31 +1,107 @@
-<mjml version="3.3.3">
-    <mj-body background-color="#F4F4F4" color="#55575d" font-family="Arial, sans-serif">
-        <mj-section background-color="#C1272D" background-repeat="repeat" padding="20px 0" text-align="center" vertical-align="top">
+<mjml>
+    <mj-body>
+
+        <!-- Company Header -->
+        <mj-section background-color="#f0f0f0">
             <mj-column>
-                <mj-image align="center" padding="10px 25px" src="http://gkq4.mjt.lu/img/gkq4/b/18rxz/1h3k4.png" width="128px"></mj-image>
+                <mj-text  align="center"
+                          font-style="italic"
+                          font-size="20px"
+                          color="#626262">
+                    My Company
+                </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section background-color="#ffffff" background-repeat="repeat" padding="20px 0" text-align="center" vertical-align="top">
-            <mj-column>
-                <mj-image align="center" padding="10px 25px" src="http://gkq4.mjt.lu/img/gkq4/b/18rxz/1h3s5.gif" width="600px"></mj-image>
-                <mj-image align="center" alt="Happy New Year!" container-background-color="#ffffff" padding="10px 25px" src="http://gkq4.mjt.lu/img/gkq4/b/18rxz/1hlvp.png" width="399px"></mj-image>
+
+        <!-- Image Header -->
+        <mj-section background-url="https://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg"
+                    background-size="cover"
+                    background-repeat="no-repeat">
+
+            <mj-column width="600px">
+                <mj-text  align="center"
+                          color="#fff"
+                          font-size="40px"
+                          font-family="Helvetica Neue">
+                    Slogan here
+                </mj-text>
+
+                <mj-button background-color="#F63A4D"
+                           href="#">
+                    Promotion
+                </mj-button>
+
+            </mj-column>
+
+        </mj-section>
+
+        <!-- Intro text -->
+        <mj-section background-color="#fafafa">
+            <mj-column width="400px">
+
+                <mj-text font-style="italic"
+                         font-size="20px"
+                         font-family="Helvetica Neue"
+                         color="#626262">My Awesome Text</mj-text>
+
+                <mj-text color="#525252">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
+                </mj-text>
+
+                <mj-button background-color="#F45E43"
+                           href="#">Learn more</mj-button>
+
             </mj-column>
         </mj-section>
-        <mj-section background-color="#ffffff" background-repeat="repeat" background-size="auto" padding="20px 0px 20px 0px" text-align="center" vertical-align="top">
+
+
+        <!-- Side image -->
+        <mj-section background-color="white">
+
+            <!-- Left image -->
             <mj-column>
-                <mj-text align="center" color="#55575d" font-family="Arial, sans-serif" font-size="14px" line-height="28px" padding="0px 25px 0px 25px">New dreams, new hopes, new experiences and new joys, we wish you all the best for this New Year to come in 2018!</mj-text>
-                <mj-image align="center" alt="Best wishes from all the Clothes Team!" padding="10px 25px" src="http://gkq4.mjt.lu/img/gkq4/b/18rxz/1hlv8.png" width="142px"></mj-image>
+                <mj-image width="200px"
+                          src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
+            </mj-column>
+
+            <!-- right paragraph -->
+            <mj-column>
+                <mj-text font-style="italic"
+                         font-size="20px"
+                         font-family="Helvetica Neue"
+                         color="#626262">
+                    Find amazing places
+                </mj-text>
+
+                <mj-text color="#525252">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.</mj-text>
+
             </mj-column>
         </mj-section>
-        <mj-section background-color="#C1272D" background-repeat="repeat" padding="20px 0" text-align="center" vertical-align="top">
+
+
+        <!-- Icons -->
+        <mj-section background-color="#fbfbfb">
             <mj-column>
-                <mj-text align="center" color="#ffffff" font-family="Arial, sans-serif" font-size="13px" line-height="22px" padding="10px 25px">Simply created&nbsp;on&nbsp;<a style="color:#ffffff" href="http://www.mailjet.com"><b>Mailjet Passport</b></a></mj-text>
+                <mj-image width="100px" src="https://191n.mj.am/img/191n/3s/x0l.png" />
+            </mj-column>
+            <mj-column>
+                <mj-image width="100px" src="https://191n.mj.am/img/191n/3s/x01.png" />
+            </mj-column>
+            <mj-column>
+                <mj-image width="100px" src="https://191n.mj.am/img/191n/3s/x0s.png" />
             </mj-column>
         </mj-section>
-        <mj-section background-repeat="repeat" background-size="auto" padding="20px 0px 20px 0px" text-align="center" vertical-align="top">
+
+        <!-- Social icons -->
+        <mj-section background-color="#e7e7e7">
             <mj-column>
-                <mj-text align="center" color="#55575d" font-family="Arial, sans-serif" font-size="11px" line-height="22px" padding="0px 20px">What Info</mj-text>
+                <mj-social>
+                    <mj-social-element name="facebook">Share</mj-social-element>
+                </mj-social>
             </mj-column>
         </mj-section>
+
+
     </mj-body>
 </mjml>
