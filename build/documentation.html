@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" style="box-sizing: border-box; margin: 0; padding: 0;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation - Adaptive Email Library Framework</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+.nav-link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: var(--primary-color);
+}
+.btn-main:hover {
+  background-color: var(--secondary-color);
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+.footer-links a {
+  color: var(--light-color);
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+.footer-links a:hover {
+  opacity: 0.8;
+}
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-collapse {
+    background: white;
+    padding: 1rem;
+  }
+}
+.doc-link {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+.doc-link:hover {
+  color: #2980b9;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.doc-link:hover {
+  color: #2980b9 !important;
+  text-decoration: underline !important;
+}
+.doc-nav .nav-link {
+  padding: 0.5rem 0 !important;
+  color: #6c757d !important;
+  transition: color 0.2s ease-in-out !important;
+}
+.doc-nav .nav-link:hover,
+.doc-nav .nav-link.active {
+  color: #3498db !important;
+}
+</style>
+</head>
+<body style="box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.6; color: #34495e; background-color: #ecf0f1;">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="box-sizing: border-box; margin: 0; display: flex; justify-content: space-between; align-items: center; background-color: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; padding: 1rem 15px;">
+        <a class="navbar-brand" href="#" style="box-sizing: border-box; margin: 0; padding: 0; font-weight: 700; font-size: 1.5rem; color: #2c3e50; text-decoration: none;">Adaptive Email Library</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="box-sizing: border-box; margin: 0; padding: 0;">
+            <span class="navbar-toggler-icon" style="box-sizing: border-box; margin: 0; padding: 0;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="box-sizing: border-box; margin: 0; padding: 0;">
+            <ul class="navbar-nav ml-auto" style="display: flex; align-items: center; box-sizing: border-box; margin: 0; padding: 0; margin-left: auto;">
+                <li class="nav-item" style="box-sizing: border-box; margin: 0; padding: 0 0.5rem;"><a class="nav-link" href="index.html" style="color: #34495e; text-decoration: none; font-weight: 500; transition: color 0.3s ease; box-sizing: border-box; margin: 0; padding: 0;">Home</a></li>
+                <li class="nav-item" style="box-sizing: border-box; margin: 0; padding: 0 0.5rem;"><a class="nav-link" href="getting-started.html" style="color: #34495e; text-decoration: none; font-weight: 500; transition: color 0.3s ease; box-sizing: border-box; margin: 0; padding: 0;">Getting Started</a></li>
+                <li class="nav-item" style="box-sizing: border-box; margin: 0; padding: 0 0.5rem;"><a class="nav-link" href="resources.html" style="color: #34495e; text-decoration: none; font-weight: 500; transition: color 0.3s ease; box-sizing: border-box; margin: 0; padding: 0;">Resources</a></li>
+                <li class="nav-item active" style="box-sizing: border-box; margin: 0; padding: 0 0.5rem;"><a class="nav-link" href="documentation.html" style="color: #34495e; text-decoration: none; font-weight: 500; transition: color 0.3s ease; box-sizing: border-box; margin: 0; padding: 0;">Docs</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="bg-primary text-white text-center py-5" style="box-sizing: border-box; margin: 0; padding: 4rem 0;">
+        <div class="container" style="box-sizing: border-box; margin: 0; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; padding: 0 15px;">
+            <h1 class="display-4" style="box-sizing: border-box; margin: 0; padding: 0;">Documentation</h1>
+            <p class="lead" style="box-sizing: border-box; margin: 0; padding: 0;">Comprehensive guides and API references for all features.</p>
+        </div>
+    </header>
+
+    <!-- Documentation Sections -->
+    <section class="doc-section" style="box-sizing: border-box; margin: 0; padding: 4rem 0;">
+        <div class="container" style="box-sizing: border-box; margin: 0; padding: 0; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;">
+            <div class="row" style="box-sizing: border-box; margin: 0; padding: 0; margin-right: -15px; margin-left: -15px;">
+                <div class="col-md-8" style="box-sizing: border-box; margin: 0; padding: 0; padding-right: 15px; padding-left: 15px;">
+                    <h2 class="doc-title" style="box-sizing: border-box; margin: 0; padding: 0; font-size: 2rem; font-weight: bold; color: #2c3e50; margin-bottom: 1.5rem;">Introduction</h2>
+                    <p class="doc-content" style="box-sizing: border-box; margin: 0; padding: 0; font-size: 1rem; line-height: 1.6; color: #34495e; margin-bottom: 2rem;">Welcome to the Adaptive Email Library documentation. This guide will help you understand the framework and how to use it effectively.</p>
+                </div>
+                <div class="col-md-4" style="box-sizing: border-box; margin: 0; padding: 0; padding-right: 15px; padding-left: 15px;">
+                    <h3 class="doc-title" style="box-sizing: border-box; margin: 0; padding: 0; font-size: 2rem; font-weight: bold; color: #2c3e50; margin-bottom: 1.5rem;">Quick Links</h3>
+                    <ul class="list-unstyled" style="box-sizing: border-box; margin: 0; padding: 0; list-style: none; padding-left: 0;">
+                        <li style="box-sizing: border-box; margin: 0; padding: 0; margin-bottom: 0.75rem;"><a href="#setup" class="doc-link" style="box-sizing: border-box; margin: 0; padding: 0; color: #3498db; text-decoration: none; transition: color 0.3s ease-in-out;">Setup</a></li>
+                        <li style="box-sizing: border-box; margin: 0; padding: 0; margin-bottom: 0.75rem;"><a href="#components" class="doc-link" style="box-sizing: border-box; margin: 0; padding: 0; color: #3498db; text-decoration: none; transition: color 0.3s ease-in-out;">Components</a></li>
+                        <li style="box-sizing: border-box; margin: 0; padding: 0; margin-bottom: 0.75rem;"><a href="#api" class="doc-link" style="box-sizing: border-box; margin: 0; padding: 0; color: #3498db; text-decoration: none; transition: color 0.3s ease-in-out;">API Reference</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="doc-section" id="setup" style="box-sizing: border-box; margin: 0; padding: 4rem 0;">
+        <div class="container" style="box-sizing: border-box; margin: 0; padding: 0; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;">
+            <h2 class="doc-title" style="box-sizing: border-box; margin: 0; padding: 0; font-size: 2rem; font-weight: bold; color: #2c3e50; margin-bottom: 1.5rem;">Setup</h2>
+            <p class="doc-content" style="box-sizing: border-box; margin: 0; padding: 0; font-size: 1rem; line-height: 1.6; color: #34495e; margin-bottom: 2rem;">To get started with the Adaptive Email Library, follow these steps to set up your environment and begin building responsive email templates.</p>
+            <pre class="bg-light p-3" style="box-sizing: border-box; margin: 0; background: #f8f9fa; padding: 1rem; border-radius: 4px; overflow-x: auto;"><code style="box-sizing: border-box; margin: 0; padding: 0; font-family: 'Courier New', Courier, monospace; color: #e83e8c;">npm install adaptive-email-library</code></pre>
+        </div>
+    </section>
+
+    <section class="doc-section" id="components" style="box-sizing: border-box; margin: 0; padding: 4rem 0;">
+        <div class="container" style="box-sizing: border-box; margin: 0; padding: 0; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;">
+            <h2 class="doc-title" style="box-sizing: border-box; margin: 0; padding: 0; font-size: 2rem; font-weight: bold; color: #2c3e50; margin-bottom: 1.5rem;">Components</h2>
+            <p class="doc-content" style="box-sizing: border-box; margin: 0; padding: 0; font-size: 1rem; line-height: 1.6; color: #34495e; margin-bottom: 2rem;">Explore the various components available in the Adaptive Email Library, designed to streamline your email development process.</p>
+        </div>
+    </section>
+
+    <section class="doc-section" id="api" style="box-sizing: border-box; margin: 0; padding: 4rem 0;">
+        <div class="container" style="box-sizing: border-box; margin: 0; padding: 0; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;">
+            <h2 class="doc-title" style="box-sizing: border-box; margin: 0; padding: 0; font-size: 2rem; font-weight: bold; color: #2c3e50; margin-bottom: 1.5rem;">API Reference</h2>
+            <p class="doc-content" style="box-sizing: border-box; margin: 0; padding: 0; font-size: 1rem; line-height: 1.6; color: #34495e; margin-bottom: 2rem;">Detailed API documentation for the Adaptive Email Library, including methods, properties, and usage examples.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4" style="box-sizing: border-box; margin: 0; padding: 0;">
+        <div class="container" style="box-sizing: border-box; margin: 0; padding: 0; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;">
+            <p class="mb-0" style="box-sizing: border-box; margin: 0; padding: 0;">© 2023 Adaptive Email Library. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html> 

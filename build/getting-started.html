@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" style="box-sizing: border-box; margin: 0; padding: 0;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Email Templates Dashboard</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+.nav-link {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: var(--primary-color);
+}
+.btn-main:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+.btn-card:hover {
+  background-color: var(--primary-color);
+}
+.social-icon:hover {
+  color: var(--primary-color);
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin-bottom: 0.75rem;
+}
+.footer-links a {
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-links a:hover {
+  color: white;
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    margin: 1rem 0;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .how-to-use-section .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .how-to-use-section .col-md-6 {
+    margin-bottom: 2rem;
+  }
+}
+.step-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.step-button:hover {
+  background-color: #2980b9;
+}
+@media (min-width: 768px) {
+  .steps-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .steps-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.how-to-use-section .btn-main:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.cta-section .btn:hover {
+  background-color: #ecf0f1;
+  color: #2980b9;
+}
+.aelf-resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.aelf-resource-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+.aelf-resource-link:hover {
+  color: #2980b9;
+}
+.aelf-cta-button-primary:hover {
+  background-color: #f8f9fa;
+}
+.aelf-cta-button-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+@media (max-width: 768px) {
+  .aelf-resources-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .aelf-cta-buttons {
+    flex-direction: column;
+  }
+
+  .aelf-cta-button {
+    width: 100%;
+  }
+}
+.step-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.step-button:hover {
+  background-color: #2980b9;
+}
+</style>
+</head>
+<body style="box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.6; color: #34495e; background-color: #ecf0f1;">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" style="box-sizing: border-box; margin: 0; display: flex; justify-content: space-between; align-items: center; padding: 1rem 5%; background-color: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100;">
+        <a class="navbar-brand" href="#" style="box-sizing: border-box; margin: 0; padding: 0; font-weight: 700; font-size: 1.5rem; color: #2c3e50; text-decoration: none;">Adaptive Email Library Framework</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="box-sizing: border-box; margin: 0; padding: 0;">
+            <span class="navbar-toggler-icon" style="box-sizing: border-box; margin: 0; padding: 0;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="box-sizing: border-box; margin: 0; padding: 0;">
+            <ul class="navbar-nav ml-auto" style="box-sizing: border-box; margin: 0; padding: 0; display: flex; align-items: center; list-style: none;">
+                <li class="nav-item" style="box-sizing: border-box; margin: 0; padding: 0; margin-left: 1.5rem;"><a class="nav-link" href="/" style="box-sizing: border-box; margin: 0; padding: 0; text-decoration: none; color: #34495e; font-weight: 500; transition: color 0.3s ease;">Home</a></li>
+                <li class="nav-item" style="box-sizing: border-box; margin: 0; padding: 0; margin-left: 1.5rem;"><a class="nav-link" href="/pages/getting-started.html" style="box-sizing: border-box; margin: 0; padding: 0; text-decoration: none; color: #34495e; font-weight: 500; transition: color 0.3s ease;">Getting Started</a></li>
+                <li class="nav-item" style="box-sizing: border-box; margin: 0; padding: 0; margin-left: 1.5rem;"><a class="nav-link" href="/pages/resources.html" style="box-sizing: border-box; margin: 0; padding: 0; text-decoration: none; color: #34495e; font-weight: 500; transition: color 0.3s ease;">Resources</a></li>
+                <li class="nav-item" style="box-sizing: border-box; margin: 0; padding: 0; margin-left: 1.5rem;"><a class="nav-link" href="/pages/docs.html" style="box-sizing: border-box; margin: 0; padding: 0; text-decoration: none; color: #34495e; font-weight: 500; transition: color 0.3s ease;">Docs</a></li>
+                <li class="nav-item" style="box-sizing: border-box; margin: 0; padding: 0; margin-left: 1.5rem;"><a class="nav-link btn btn-main" href="/pages/getting-started.html" style="box-sizing: border-box; margin: 0; font-weight: 500; background-color: #3498db; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; transition: transform 0.3s ease, box-shadow 0.3s ease;">Getting Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="header-section" style="box-sizing: border-box; margin: 0; text-align: center; padding: 4rem 1rem; background: linear-gradient(135deg, #3498db, #2ecc71); color: white;">
+        <h1 style="box-sizing: border-box; margin: 0; padding: 0; font-size: 3rem; margin-bottom: 1rem; font-weight: 800;">Responsive Email Templates</h1>
+        <p style="box-sizing: border-box; padding: 0; max-width: 700px; margin: 0 auto 2rem; opacity: 0.9;">Get 6 ultra-customizable responsive HTML email templates. Download all the templates and get free tutorials on responsive email design, development, and marketing strategy.</p>
+        <button class="btn btn-main" style="box-sizing: border-box; margin: 0; background-color: #3498db; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; transition: transform 0.3s ease, box-shadow 0.3s ease;">Download</button>
+    </div>
+    <section class="steps-section" style="padding: 4rem 0; background-color: #f8f9fa;">
+      <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 1rem;">
+        <div class="steps-grid" style="justify-items: center; display: grid; gap: 2rem; grid-template-columns: 1fr;">
+          <!-- Step 1 -->
+          <div class="step-card" style="max-width: 700px; width: 100%; background-color: #ffffff; border-radius: 0.5rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;">
+            <div class="step-content" style="display: flex; padding: 2rem;">
+              <div class="step-number" style="flex-shrink: 0; width: 2.5rem; height: 2.5rem; background-color: #3498db; color: #ffffff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.25rem; margin-right: 1.5rem;">1</div>
+              <div class="step-details" style="flex-grow: 1;">
+                <h3 class="step-title" style="font-size: 1.5rem; font-weight: bold; margin-bottom: 0.5rem; color: #333333;">Choose Your Template</h3>
+                <p class="step-description" style="color: #666666; margin-bottom: 1rem; line-height: 1.6;">
+                  Browse our collection of professional email templates. Each template is fully responsive 
+                  and tested across major email clients.
+                </p>
+                <a href="index.html#templates" class="step-button" style="display: inline-block; background-color: #3498db; color: #ffffff; padding: 0.5rem 1rem; border-radius: 0.25rem; text-decoration: none; transition: background-color 0.3s ease-in-out; border: none; cursor: pointer; font-size: 1rem;">View Templates</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Step 2 -->
+          <div class="step-card" style="max-width: 700px; width: 100%; background-color: #ffffff; border-radius: 0.5rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;">
+            <div class="step-content" style="display: flex; padding: 2rem;">
+              <div class="step-number" style="flex-shrink: 0; width: 2.5rem; height: 2.5rem; background-color: #3498db; color: #ffffff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.25rem; margin-right: 1.5rem;">2</div>
+              <div class="step-details" style="flex-grow: 1;">
+                <h3 class="step-title" style="font-size: 1.5rem; font-weight: bold; margin-bottom: 0.5rem; color: #333333;">Customize Your Design</h3>
+                <p class="step-description" style="color: #666666; margin-bottom: 1rem; line-height: 1.6;">
+                  Modify colors, layout, and content using our intuitive MJML syntax. 
+                  No deep HTML knowledge required.
+                </p>
+                <div class="step-code" style="background-color: #f1f3f5; border-radius: 0.25rem; padding: 1rem; margin-top: 1rem; overflow-x: auto;">
+                  <pre style="margin: 0;"><code style="font-family: 'Courier New', Courier, monospace; font-size: 0.9rem; color: #333333;">
+    &lt;mjml&gt;
+      &lt;mj-body&gt;
+        &lt;mj-section&gt;
+          &lt;mj-column&gt;
+            &lt;mj-text&gt;
+              Hello World!
+            &lt;/mj-text&gt;
+          &lt;/mj-column&gt;
+        &lt;/mj-section&gt;
+      &lt;/mj-body&gt;
+    &lt;/mjml&gt;
+                  </code></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Step 3 -->
+          <div class="step-card" style="max-width: 700px; width: 100%; background-color: #ffffff; border-radius: 0.5rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;">
+            <div class="step-content" style="display: flex; padding: 2rem;">
+              <div class="step-number" style="flex-shrink: 0; width: 2.5rem; height: 2.5rem; background-color: #3498db; color: #ffffff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.25rem; margin-right: 1.5rem;">3</div>
+              <div class="step-details" style="flex-grow: 1;">
+                <h3 class="step-title" style="font-size: 1.5rem; font-weight: bold; margin-bottom: 0.5rem; color: #333333;">Build & Test</h3>
+                <p class="step-description" style="color: #666666; margin-bottom: 1rem; line-height: 1.6;">
+                  Use our build tools to compile your MJML into production-ready HTML. 
+                  Test across different email clients with our integrated testing tools.
+                </p>
+                <div class="step-code" style="background-color: #f1f3f5; border-radius: 0.25rem; padding: 1rem; margin-top: 1rem; overflow-x: auto;">
+                  <pre style="margin: 0;"><code style="font-family: 'Courier New', Courier, monospace; font-size: 0.9rem; color: #333333;">npm run build</code></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Step 4 -->
+          <div class="step-card" style="max-width: 700px; width: 100%; background-color: #ffffff; border-radius: 0.5rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;">
+            <div class="step-content" style="display: flex; padding: 2rem;">
+              <div class="step-number" style="flex-shrink: 0; width: 2.5rem; height: 2.5rem; background-color: #3498db; color: #ffffff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.25rem; margin-right: 1.5rem;">4</div>
+              <div class="step-details" style="flex-grow: 1;">
+                <h3 class="step-title" style="font-size: 1.5rem; font-weight: bold; margin-bottom: 0.5rem; color: #333333;">Deploy & Send</h3>
+                <p class="step-description" style="color: #666666; margin-bottom: 1rem; line-height: 1.6;">
+                  Your email is ready to go! Use our export options to send via your favorite email 
+                  service provider or download the HTML directly.
+                </p>
+                <button class="step-button" style="display: inline-block; background-color: #3498db; color: #ffffff; padding: 0.5rem 1rem; border-radius: 0.25rem; text-decoration: none; transition: background-color 0.3s ease-in-out; border: none; cursor: pointer; font-size: 1rem;">Learn About Sending</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Resources Section -->
+<section class="aelf-resources-section" style="padding: 4rem 0; background-color: #ffffff;">
+  <div class="aelf-container" style="max-width: 1200px; margin: 0 auto; padding: 0 1rem;">
+    <h2 class="aelf-section-title" style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 3rem; color: #333333;">Helpful Resources</h2>
+    <div class="aelf-resources-grid" style="display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+      <div class="aelf-resource-card" style="background-color: #ffffff; border-radius: 0.5rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); padding: 2rem; text-align: center; transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;">
+        <div class="aelf-resource-icon" style="width: 4rem; height: 4rem; background-color: #e6f3ff; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+          <svg viewBox="0 0 24 24" class="aelf-icon" style="width: 2rem; height: 2rem; fill: none; stroke: #3498db; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;">
+            <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+          </svg>
+        </div>
+        <h3 class="aelf-resource-title" style="font-size: 1.25rem; font-weight: bold; margin-bottom: 0.5rem; color: #333333;">Documentation</h3>
+        <p class="aelf-resource-description" style="color: #666666; margin-bottom: 1rem; line-height: 1.6;">
+          Comprehensive guides and API references for all features.
+        </p>
+        <a href="docs.html" class="aelf-resource-link" style="color: #3498db; text-decoration: none; font-weight: 500; transition: color 0.3s ease-in-out;">Read Documentation →</a>
+      </div>
+      <div class="aelf-resource-card" style="background-color: #ffffff; border-radius: 0.5rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); padding: 2rem; text-align: center; transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;">
+        <div class="aelf-resource-icon" style="width: 4rem; height: 4rem; background-color: #e6f3ff; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+          <svg viewBox="0 0 24 24" class="aelf-icon" style="width: 2rem; height: 2rem; fill: none; stroke: #3498db; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;">
+            <path d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"/>
+          </svg>
+        </div>
+        <h3 class="aelf-resource-title" style="font-size: 1.25rem; font-weight: bold; margin-bottom: 0.5rem; color: #333333;">Community</h3>
+        <p class="aelf-resource-description" style="color: #666666; margin-bottom: 1rem; line-height: 1.6;">
+          Join our Slack community for support and discussions.
+        </p>
+        <a href="#" class="aelf-resource-link" style="color: #3498db; text-decoration: none; font-weight: 500; transition: color 0.3s ease-in-out;">Join Community →</a>
+      </div>
+      <div class="aelf-resource-card" style="background-color: #ffffff; border-radius: 0.5rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); padding: 2rem; text-align: center; transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;">
+        <div class="aelf-resource-icon" style="width: 4rem; height: 4rem; background-color: #e6f3ff; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+          <svg viewBox="0 0 24 24" class="aelf-icon" style="width: 2rem; height: 2rem; fill: none; stroke: #3498db; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;">
+            <path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+          </svg>
+        </div>
+        <h3 class="aelf-resource-title" style="font-size: 1.25rem; font-weight: bold; margin-bottom: 0.5rem; color: #333333;">Templates</h3>
+        <p class="aelf-resource-description" style="color: #666666; margin-bottom: 1rem; line-height: 1.6;">
+          Browse our collection of pre-built email templates.
+        </p>
+        <a href="index.html#templates" class="aelf-resource-link" style="color: #3498db; text-decoration: none; font-weight: 500; transition: color 0.3s ease-in-out;">View Templates →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="aelf-cta-section" style="padding: 4rem 0; background: linear-gradient(135deg, #3498db, #2ecc71); color: #ffffff; text-align: center;">
+  <div class="aelf-container" style="max-width: 1200px; margin: 0 auto; padding: 0 1rem;">
+    <h2 class="aelf-cta-title" style="font-size: 2.5rem; font-weight: bold; margin-bottom: 1rem;">Ready to Get Started?</h2>
+    <p class="aelf-cta-description" style="font-size: 1.125rem; max-width: 600px; margin: 0 auto 2rem; opacity: 0.9;">
+      Join thousands of developers who are already creating beautiful, responsive emails with our framework.
+    </p>
+    <div class="aelf-cta-buttons" style="display: flex; justify-content: center; gap: 1rem;">
+      <a href="#" class="aelf-cta-button aelf-cta-button-primary" style="display: inline-block; padding: 0.75rem 1.5rem; border-radius: 0.25rem; font-weight: 500; text-decoration: none; transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; background-color: #ffffff; color: #3498db;">Download Now</a>
+      <a href="documentation.html" class="aelf-cta-button aelf-cta-button-secondary" style="display: inline-block; padding: 0.75rem 1.5rem; border-radius: 0.25rem; font-weight: 500; text-decoration: none; transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; background-color: transparent; border: 2px solid #ffffff; color: #ffffff;">Read Docs</a>
+    </div>
+  </div>
+</section>
+
+    <footer class="footer" style="box-sizing: border-box; margin: 0; color: #ecf0f1; display: flex; flex-direction: column; align-items: center; text-align: center; background-color: #f8f9fa; padding: 4rem 2rem;">
+        <div class="footer-content" style="box-sizing: border-box; padding: 0; flex-wrap: wrap; justify-content: space-between; width: 100%; max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 3rem;">
+            <div class="footer-column" style="box-sizing: border-box; padding: 0; flex: 1; margin: 20px; min-width: 200px;">
+                <h4 style="box-sizing: border-box; margin: 0; padding: 0; color: #333; margin-bottom: 1.5rem; font-size: 1.2rem;">DISCOVER</h4>
+                <ul class="footer-links" style="box-sizing: border-box; margin: 0; padding: 0; list-style: none;">
+                    <li style="box-sizing: border-box; margin: 0; padding: 0; margin-bottom: 0.75rem;"><a href="#" style="box-sizing: border-box; margin: 0; padding: 0; color: #666; text-decoration: none; transition: color 0.3s ease;">Homepage</a></li>
+                    <li style="box-sizing: border-box; margin: 0; padding: 0; margin-bottom: 0.75rem;"><a href="#" style="box-sizing: border-box; margin: 0; padding: 0; color: #666; text-decoration: none; transition: color 0.3s ease;">Try it live</a></li>
+                    <li style="box-sizing: border-box; margin: 0; padding: 0; margin-bottom: 0.75rem;"><a href="#" style="box-sizing: border-box; margin: 0; padding: 0; color: #666; text-decoration: none; transition: color 0.3s ease;">Documentation</a></li>
+                </ul>
+            </div>
+            <div class="footer-column" style="box-sizing: border-box; padding: 0; flex: 1; margin: 20px; min-width: 200px;">
+                <h4 style="box-sizing: border-box; margin: 0; padding: 0; color: #333; margin-bottom: 1.5rem; font-size: 1.2rem;">ABOUT ARET</h4>
+                <ul class="footer-links" style="box-sizing: border-box; margin: 0; padding: 0; list-style: none;">
+                    <li style="box-sizing: border-box; margin: 0; padding: 0; margin-bottom: 0.75rem;"><a href="#" style="box-sizing: border-box; margin: 0; padding: 0; color: #666; text-decoration: none; transition: color 0.3s ease;">Resources</a></li>
+                    <li style="box-sizing: border-box; margin: 0; padding: 0; margin-bottom: 0.75rem;"><a href="#" style="box-sizing: border-box; margin: 0; padding: 0; color: #666; text-decoration: none; transition: color 0.3s ease;">FAQ</a></li>
+                    <li style="box-sizing: border-box; margin: 0; padding: 0; margin-bottom: 0.75rem;"><a href="#" style="box-sizing: border-box; margin: 0; padding: 0; color: #666; text-decoration: none; transition: color 0.3s ease;">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-column" style="box-sizing: border-box; padding: 0; flex: 1; margin: 20px; min-width: 200px;">
+                <h4 style="box-sizing: border-box; margin: 0; padding: 0; color: #333; margin-bottom: 1.5rem; font-size: 1.2rem;">JOIN THE COMMUNITY</h4>
+                <ul class="footer-links" style="box-sizing: border-box; margin: 0; padding: 0; list-style: none;">
+                    <li style="box-sizing: border-box; margin: 0; padding: 0; margin-bottom: 0.75rem;"><a href="#" style="box-sizing: border-box; margin: 0; padding: 0; color: #666; text-decoration: none; transition: color 0.3s ease;">Join the slack community</a></li>
+                    <li style="box-sizing: border-box; margin: 0; padding: 0; margin-bottom: 0.75rem;"><a href="#" style="box-sizing: border-box; margin: 0; padding: 0; color: #666; text-decoration: none; transition: color 0.3s ease;">Support the open source project</a></li>
+                    <li style="box-sizing: border-box; margin: 0; padding: 0; margin-bottom: 0.75rem;"><a href="#" style="box-sizing: border-box; margin: 0; padding: 0; color: #666; text-decoration: none; transition: color 0.3s ease;">Github</a></li>
+                </ul>
+                <div class="community-icons" style="box-sizing: border-box; margin: 0; padding: 0; display: flex; gap: 0.5rem; margin-top: 1rem;">
+                    <img src="/placeholder.svg?height=32&width=32" alt="Community member 1" style="box-sizing: border-box; margin: 0; padding: 0; width: 32px; height: 32px; border-radius: 4px;" width="32" height="32">
+                    <img src="/placeholder.svg?height=32&width=32" alt="Community member 2" style="box-sizing: border-box; margin: 0; padding: 0; width: 32px; height: 32px; border-radius: 4px;" width="32" height="32">
+                    <img src="/placeholder.svg?height=32&width=32" alt="Community member 3" style="box-sizing: border-box; margin: 0; padding: 0; width: 32px; height: 32px; border-radius: 4px;" width="32" height="32">
+                    <img src="/placeholder.svg?height=32&width=32" alt="Community member 4" style="box-sizing: border-box; margin: 0; padding: 0; width: 32px; height: 32px; border-radius: 4px;" width="32" height="32">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

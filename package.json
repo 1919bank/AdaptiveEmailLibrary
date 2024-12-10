@@ -10,8 +10,8 @@
     "inline": "node inlineStyles.js",
     "clean": "rimraf build",
     "preview": "node browsersync.js",
-    "generate-index": "node generateIndex.js",
-    "build": "mjml src/templates/*.mjml -o build && npm run inline && npm run generate-index",
+    "generate-pages": "node generateIndex.js",
+    "build": "mjml src/templates/*.mjml -o build/emails && npm run inline && npm run generate-pages",
     "server": "http-server build -o",
     "watch": "mjml -w -r src/templates -o build",
     "start": "npm run watch",
@@ -32,11 +32,15 @@
     "http-server": "^14.1.1",
     "juice": "^11.0.0",
     "mailchimp-marketing": "^0.0.1-security",
-    "mjml": "^4.10.0",
+    "mjml": "^4.9.0",
     "nodemailer": "^6.9.16",
     "rimraf": "^5.0.0"
   },
   "dependencies": {
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "next": "^15.0.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
+
