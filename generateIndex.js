@@ -483,7 +483,7 @@ function generateIndexPage() {
                 <div class="header-section">
                     <h1>Responsive Email Templates</h1>
                     <p>Get 6 ultra-customizable responsive HTML email templates. Download all the templates and get free tutorials on responsive email design, development, and marketing strategy.</p>
-                    <button class="btn btn-main">Download</button>
+                    <button href="https://github.com/1919bank/AdaptiveEmailLibrary/tree/main/build/emails" class="btn btn-main">Download</button>
                 </div>
 
                 <!-- Template Previews Section -->
@@ -643,7 +643,7 @@ function generateIndexPage() {
                             <ul class="footer-links">
                                 <li><a href="#">Join the slack community</a></li>
                                 <li><a href="#">Support the open source project</a></li>
-                                <li><a href="#">Github</a></li>
+                                <li><a href="https://github.com/1919bank/AdaptiveEmailLibrary">Github</a></li>
                             </ul>
                             <div class="community-icons">
                                 <img src="/placeholder.svg?height=32&width=32" alt="Community member 1">
